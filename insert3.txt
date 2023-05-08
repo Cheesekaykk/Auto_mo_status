@@ -1,0 +1,3 @@
+Jan Michael, Miravalles, Paco, jm@gmail.com, 0912762381, Sedan, Sedan, Passed, 2023-04-10
+Carl Lawrence, Lontac, Makati, cll@gmail.com, 0989732842, Sedan, Motorcycle, Failed, 2023-04-09
+Charles Justin Lee, Condolon, Malate, cjl@gmail.com, 09953047344, Van, Truck, Passed, 2023-04-10
