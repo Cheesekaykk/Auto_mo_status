@@ -4,7 +4,6 @@
  */
 package com.mycompany.auto.mo.status;
 
-import static com.mycompany.auto.mo.status.Main.date;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -364,7 +363,7 @@ static Implementation im = new Implementation();
     Main main = new Main();
     
     main.Table(fname, lname, add, email, 
-            contact, car, park, process, date);
+            contact, car, park, process);
     main.setVisible(true);
     main.pack();
     this.setVisible(false);
