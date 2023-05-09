@@ -4,6 +4,7 @@
  */
 package com.mycompany.auto.mo.status;
 
+import static com.mycompany.auto.mo.status.Implementation.date;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -355,6 +356,7 @@ static Implementation im = new Implementation();
     im.setPark(park);
     im.setProcess(process);
     
+    
     im.saveInfo();
     JOptionPane.showMessageDialog(this,"Registered Successfully!");
     
@@ -363,7 +365,7 @@ static Implementation im = new Implementation();
     Main main = new Main();
     
     main.Table(fname, lname, add, email, 
-            contact, car, park, process);
+            contact, car, park, process,date);
     main.setVisible(true);
     main.pack();
     this.setVisible(false);
