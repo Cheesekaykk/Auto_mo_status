@@ -45,6 +45,8 @@ public class Main extends javax.swing.JFrame {
     public Main() {
         initComponents();
         setLocationRelativeTo(null);
+      
+        
         
         dataTable.getTableHeader().setFont (new Font("Monospaced", Font.PLAIN, 15));
         dataTable.getTableHeader().setOpaque(false);
@@ -101,6 +103,7 @@ public class Main extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
+        jPanel6 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
@@ -131,6 +134,17 @@ public class Main extends javax.swing.JFrame {
         addcus = new javax.swing.JButton();
         rspspace = new javax.swing.JLabel();
         parkComboBox = new javax.swing.JComboBox<>();
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -396,7 +410,7 @@ public class Main extends javax.swing.JFrame {
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup()
                                     .addComponent(rspspace)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(parkComboBox, 0, 162, Short.MAX_VALUE)))
+                                    .addComponent(parkComboBox, 0, 170, Short.MAX_VALUE)))
                             .addGroup(jPanel4Layout.createSequentialGroup()
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(rfname)
@@ -769,6 +783,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private static javax.swing.JTextField lnameField;
@@ -787,12 +802,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel rspspace;
     // End of variables declaration//GEN-END:variables
 
-    public JTable getDataTable() {
-        return dataTable;
-    }
-    public void setDataTable(javax.swing.JTable dataTable) {
-        this.dataTable = dataTable;
-    }
+    
     
     
 }
